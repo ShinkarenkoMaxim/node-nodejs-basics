@@ -6,7 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "cli:env": "node src/cli/env",
-    "cli:args": "node src/cli/args"
+    "cli:args": "node src/cli/args",
+    "hash:calc": "NODE_ENV=development node src/hash/calcHash"
   },
   "repository": {
     "type": "git",
