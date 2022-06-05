@@ -20,7 +20,8 @@
     "fs:delete": "node src/fs/delete.js",
     "fs:list": "node src/fs/list.js",
     "fs:read": "node src/fs/read.js",
-    "wt": "node src/fs/main.js"
+    "wt": "node src/fs/main.js",
+    "cp": "node src/cp/cp.js"
   },
   "repository": {
     "type": "git",
