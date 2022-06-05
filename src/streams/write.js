@@ -4,7 +4,6 @@ import path from 'path';
 import * as readline from 'readline';
 
 export const write = async () => {
-  // Write your code here
   // Get __dirname by parsing module url
   const __dirname = path.dirname(fileURLToPath(import.meta.url));
 

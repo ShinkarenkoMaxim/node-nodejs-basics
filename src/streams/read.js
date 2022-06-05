@@ -7,7 +7,6 @@ export const read = async () => {
   const __dirname = path.dirname(fileURLToPath(import.meta.url));
 
   // Get our text file
-  const fileEncoding = 'utf-8'; // Can change if needed
   const fileName = 'fileToRead'; // Can change if needed
   const filePath = path.resolve(__dirname, `./files/${fileName}.txt`);
 
